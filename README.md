@@ -81,36 +81,6 @@ npm start
 
 The application will be available at http://localhost:3000
 
-### Building for Production
-
-```
-npm run build
-```
-
-This creates an optimized production build in the `build` folder that you can deploy to a web server.
-
-### Deploying to Vercel
-
-1. Push your code to GitHub
-
-2. Sign up for a free account at [Vercel](https://vercel.com/)
-
-3. Click "New Project" and import your GitHub repository
-
-4. Configure the project:
-   - Framework Preset: Create React App
-   - Root Directory: ./
-   - Build Command: npm run build
-   - Output Directory: build
-
-5. Add Environment Variable:
-   - Name: `GROQ_API_KEY` (note: not REACT_APP_GROQ_API_KEY)
-   - Value: Your Groq API key
-
-6. Click "Deploy"
-
-Your application will be deployed with a secure backend API that protects your Groq API key.
-
 ## How to Use
 
 1. **Fill Resume Details**: Enter your personal information, work experience, education, skills, projects, achievements, and certifications.
