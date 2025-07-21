@@ -21,17 +21,6 @@ A modern web application that helps users create professional resumes with AI as
 - **Interactive Preview**: See exactly how your resume will look before downloading
 - **Modern UI**: Clean, responsive design with Material-UI components
 
-## Screenshots
-
-### Home Page
-![Home Page](https://i.imgur.com/example1.png) <!-- Replace with actual screenshots -->
-
-### Resume Form
-![Resume Form](https://i.imgur.com/example2.png)
-
-### Generated Resume
-![Generated Resume](https://i.imgur.com/example3.png)
-
 ## Project Structure
 
 ```
