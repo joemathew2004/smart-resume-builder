@@ -18,7 +18,9 @@ A modern web application that helps users create professional resumes with AI as
 </table>
 
 ### Generated PDF
-![Generated PDF](screenshots/Generated%20PDF.png)
+<p align="center">
+  <img src="screenshots/Generated%20PDF.png" alt="Generated PDF" width="50%">
+</p>
 
 ## Features
 
