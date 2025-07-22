@@ -239,7 +239,7 @@ const ResumeDocument = ({ formData }) => (
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Skills</Text>
           <View style={styles.contentContainer}>
-            {formData.skills.split(',').map((skill, index) => (
+            {formData.skills.split('\n').filter(skill => skill.trim()).map((skill, index) => (
               <View key={index} style={styles.bulletRow}>
                 <Text style={styles.bullet}>•</Text>
                 <Text style={styles.contentText}>{skill.trim()}</Text>

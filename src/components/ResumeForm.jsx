@@ -362,7 +362,7 @@ const ResumeForm = ({ onSubmit }) => {
             rows={3}
             value={formData.skills}
             onChange={(e) => handleChange(null, 'skills', e.target.value)}
-            helperText="List your skills separated by commas (e.g., JavaScript, React, Project Management)"
+            helperText="List your skills on separate lines (one skill per line)"
           />
         </Box>
 

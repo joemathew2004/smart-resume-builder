@@ -198,7 +198,7 @@ const GeneratedResume = () => {
                 Skills
               </Typography>
               <Box sx={{ pl: 2 }}>
-                {formData.skills.split(',').map((skill, index) => (
+                {formData.skills.split('\n').filter(skill => skill.trim()).map((skill, index) => (
                   <Box key={index} sx={{ display: 'flex', alignItems: 'center', mb: 0.5 }}>
                     <Typography variant="body2" sx={{ mr: 1 }}>•</Typography>
                     <Typography variant="body2">{skill.trim()}</Typography>
