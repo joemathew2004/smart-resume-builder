@@ -2,7 +2,7 @@
 
 A modern web application that helps users create professional resumes with AI assistance. This tool streamlines the resume creation process, generates professional summaries using AI, and produces well-formatted PDF documents.
 
-![Smart Resume Builder](https://i.imgur.com/example.png) <!-- Replace with an actual screenshot of your app -->
+![Smart Resume Builder](screenshots/home.png) <!-- Replace with an actual screenshot of your app -->
 
 ## Features
 
