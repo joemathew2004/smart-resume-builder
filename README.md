@@ -6,12 +6,16 @@ A modern web application that helps users create professional resumes with AI as
 
 ## Application Screenshots
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
-  <img src="screenshots/work exp.png" alt="Work Experience" width="100%">
-  <img src="screenshots/summary.png" alt="Summary Generation" width="100%">
-  <img src="screenshots/preview.png" alt="Resume Preview" width="100%">
-  <img src="screenshots/resume.png" alt="PDF Export" width="100%">
-</div>
+<table>
+  <tr>
+    <td><img src="screenshots/work exp.png" alt="Work Experience" width="100%"></td>
+    <td><img src="screenshots/summary.png" alt="Summary Generation" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/preview.png" alt="Resume Preview" width="100%"></td>
+    <td><img src="screenshots/resume.png" alt="PDF Export" width="100%"></td>
+  </tr>
+</table>
 
 
 ## Features
